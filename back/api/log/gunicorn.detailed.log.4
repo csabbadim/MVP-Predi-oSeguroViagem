@@ -1,0 +1,60 @@
+[2023-11-26 13:35:23,475] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:35:23] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:35:23,476] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:35:23] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:35:23,715] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:35:23] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:35:23,720] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:35:23] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:36:04,107] ERROR log_exception() L1450 Exception on /cliente [DELETE] - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py L1450
+Traceback (most recent call last):
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\scaffold.py", line 363, in wrapper
+    **kwargs
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "C:\Users\Catarina Sabbadim\Downloads\mv\api\app.py", line 142, in delete_cliente
+    family_members = unquote(unquote(query.family_members))
+  File "c:\program files\python37\lib\urllib\parse.py", line 629, in unquote
+    if '%' not in string:
+TypeError: argument of type 'int' is not iterable
+[2023-11-26 13:36:04,118] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:36:04] "[35m[1mDELETE /cliente?age=18&employment_type=Setor%20Governamental&graduate_or_not=Sim&annual_income=10000&family_members=3&chronic_diseases=Sim&frequent_flyer=Não&ever_travelled_abroad=Sim&travel_insurance=0 HTTP/1.1[0m" 500 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:48:41,869] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:48:44,859] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:48:44] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:48:44,895] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:48:44] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:48:44,904] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:48:44] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:48:44,910] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:48:44] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:48:45,147] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:48:45] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:48:45,150] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:48:45] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:49:46,344] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:49:52,342] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:49:52] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:49:52,368] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:49:52] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:49:52,376] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:49:52] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:49:52,381] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:49:52] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:49:52,534] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:49:52] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:49:52,537] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:49:52] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:51:37,008] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:51:37] "DELETE /cliente?age=18&employment_type=Setor%20Governamental&graduate_or_not=Sim&annual_income=10000&family_members=3&chronic_diseases=Sim&frequent_flyer=Não&ever_travelled_abroad=Sim&travel_insurance=0 HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:53:23,658] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:53:23] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:55:34,862] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:55:34] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 13:55:54,345] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 13:55:54] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 14:07:35,671] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 14:07:44,028] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 14:07:44] "GET /clientes HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 14:08:15,177] WARNING predict() L113  Erro ao adicionar cliente, Cliente já existente na base :/ - call_trace=C:\Users\Catarina Sabbadim\Downloads\mv\api\app.py L113 
+[2023-11-26 14:08:15,179] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 14:08:15] "[31m[1mPOST /cliente HTTP/1.1[0m" 409 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 14:14:17,542] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 14:14:17] "GET /clientes HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-26 14:14:49,824] WARNING predict() L113  Erro ao adicionar cliente, Cliente já existente na base :/ - call_trace=C:\Users\Catarina Sabbadim\Downloads\mv\api\app.py L113 
+[2023-11-26 14:14:49,826] INFO _log() L224  127.0.0.1 - - [26/Nov/2023 14:14:49] "[31m[1mPOST /cliente HTTP/1.1[0m" 409 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 

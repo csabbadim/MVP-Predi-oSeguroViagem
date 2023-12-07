@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>AI Travel Insurace System</title>
+    <link rel="icon" href="img/aviao.png" type="image/png">
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Bem-Vindo ao AI Travel Insurace System</h2>
+            <br>
+            <p>Este sistema busca auxiliar na avaliação de necessidade de um seguro de viagem.</p>
+            <p>Preencha os campos abaixo com os dados do possível cliente e clique em "Verificar".</p>
+        </div>
+    </header>
+
+     <!-- Opções para verificar um novo item -->
+     
+    <section class="newItem">
+        <input type="text" id="age" placeholder="Idade">
+
+        <div class="select">
+            <select name="employment_type" id="employment_type">
+              <option value="" selected disabled hidden>Tipo de emprego</option>
+              <option value="Setor Governamental">Setor Governamental</option>
+              <option value="Setor Privado/Autônomo">Setor Privado/Autônomo</option>
+            </select>
+        </div>
+
+        <div class="select">
+            <select name="graduate_or_not" id="graduate_or_not">
+              <option value="" selected disabled hidden>Graduado?</option>
+              <option value="Sim">Sim</option>
+              <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <input type="text" id="annual_income" placeholder="Salário anual?">
+        <input type="text" id="family_members" placeholder="Nº de membros da família">
+
+        <div class="select">
+            <select name="chronic_diseases" id="chronic_diseases">
+              <option value="" selected disabled hidden>Possui doenças crônicas?</option>
+              <option value="Sim">Sim</option>
+              <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <div class="select">
+            <select name="frequent_flyer" id="frequent_flyer">
+              <option value="" selected disabled hidden>Viaja constantemente?</option>
+              <option value="Sim">Sim</option>
+              <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <div class="select">
+            <select name="ever_travelled_abroad" id="ever_travelled_abroad">
+              <option value="" selected disabled hidden>Já viajou para o exterior?</option>
+              <option value="Sim">Sim</option>
+              <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <span onclick="newItem()" class="addBtn">Verificar</span>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Idade</th>
+                <th>Tipo de emprego</th>
+                <th>Graduado</th>
+                <th>Salário anual</th>
+                <th>Quantidade de membros da família</th>
+                <th>Doenças crônicas</th>
+                <th>Passageiro frequente</th>
+                <th>Já viajou para o exterior</th>
+                <th>Seguro de viagem é recomendado?</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15" height="15"></th>
+                <!-- <th><img src="img/edit.png" width="15" height="15"></th> -->
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+

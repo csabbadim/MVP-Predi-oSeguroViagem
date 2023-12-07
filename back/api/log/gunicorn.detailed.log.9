@@ -1,0 +1,66 @@
+[2023-11-17 11:21:53,545] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:21:53] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:21:53,553] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:21:53] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:21:53,792] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:21:53] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:21:53,797] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:21:53] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:21:59,487] ERROR log_exception() L1450 Exception on /cliente [POST] - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py L1450
+Traceback (most recent call last):
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\scaffold.py", line 199, in wrapper
+    **kwargs
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "C:\Users\Catarina Sabbadim\Desktop\api\app.py", line 91, in predict
+    travel_insurance=Model.preditor(modelo, form)
+  File "C:\Users\Catarina Sabbadim\Desktop\api\model\modelo.py", line 49, in preditor
+    diagnosis = model.predict(X_input.reshape(1, -1))
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\neighbors\_classification.py", line 214, in predict
+    neigh_dist, neigh_ind = self.kneighbors(X)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\neighbors\_base.py", line 717, in kneighbors
+    X = self._validate_data(X, accept_sparse="csr", reset=False)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\base.py", line 585, in _validate_data
+    self._check_n_features(X, reset=reset)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\base.py", line 401, in _check_n_features
+    f"X has {n_features} features, but {self.__class__.__name__} "
+ValueError: X has 8 features, but KNeighborsClassifier is expecting 9 features as input.
+[2023-11-17 11:21:59,496] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:21:59] "[35m[1mPOST /cliente HTTP/1.1[0m" 500 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:47,590] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:51,508] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:28:51] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:51,534] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:28:51] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:51,540] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:28:51] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:51,541] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:28:51] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:51,657] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:28:51] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:51,664] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:28:51] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:28:57,149] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:28:57] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:53:33,620] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:53:33] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:54:29,329] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:54:29] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:01:02,714] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:01:08,778] WARNING predict() L113  Erro ao adicionar cliente, Cliente já existente na base :/ - call_trace=C:\Users\Catarina Sabbadim\Desktop\api\app.py L113 
+[2023-11-17 12:01:08,783] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:01:08] "[31m[1mPOST /cliente HTTP/1.1[0m" 409 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:01:42,680] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:01:42] "DELETE /cliente?id=6 HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:01:50,031] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:01:50] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:04:45,306] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:04:59,917] WARNING delete_cliente() L154  Erro ao deletar cliente '7', Cliente não encontrado na base :/ - call_trace=C:\Users\Catarina Sabbadim\Desktop\api\app.py L154 
+[2023-11-17 12:04:59,919] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:04:59] "[33mDELETE /cliente?id=7 HTTP/1.1[0m" 404 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:05:08,016] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:05:08] "DELETE /cliente?id=6 HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:05:14,182] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:05:14] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:05:40,795] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:05:40] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:05:40,824] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:05:40] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 12:05:40,829] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 12:05:40] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 

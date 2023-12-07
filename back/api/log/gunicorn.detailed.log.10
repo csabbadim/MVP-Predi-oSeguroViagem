@@ -1,0 +1,71 @@
+[2023-11-14 16:04:45,041] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:04:45] "[31m[1mPOST /cliente HTTP/1.1[0m" 409 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:05:05,445] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:05:05] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:29,626] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:31,990] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:27:31] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:32,020] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:27:32] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:32,033] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:27:32] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:32,043] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:27:32] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:32,289] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:27:32] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:32,293] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:27:32] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-14 16:27:41,983] INFO _log() L224  127.0.0.1 - - [14/Nov/2023 16:27:41] "POST /cliente HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:28,607] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:34,445] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:34] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:34,454] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:34] "[32mGET /openapi HTTP/1.1[0m" 308 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:34,497] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:34] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:34,615] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:34] "GET /openapi/static/images/redoc.svg HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:34,622] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:34] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:34,646] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:34] "GET /openapi/static/images/rapidoc.svg HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:35,816] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:35] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:35,866] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:35] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:35,923] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:35] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:36,055] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:36] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:36,221] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:36] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:06:59,430] ERROR log_exception() L1450 Exception on /cliente [POST] - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py L1450
+Traceback (most recent call last):
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\utils\validation.py", line 787, in check_array
+    array = array.astype(np.float64)
+ValueError: could not convert string to float: 'Setor Governamental'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\scaffold.py", line 199, in wrapper
+    **kwargs
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "C:\Users\Catarina Sabbadim\Desktop\api\app.py", line 108, in predict
+    travel_insurance=Model.preditor(modelo, form)
+  File "C:\Users\Catarina Sabbadim\Desktop\api\model\modelo.py", line 32, in preditor
+    diagnosis = model.predict(X_input.reshape(1, -1))
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\neighbors\_classification.py", line 214, in predict
+    neigh_dist, neigh_ind = self.kneighbors(X)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\neighbors\_base.py", line 717, in kneighbors
+    X = self._validate_data(X, accept_sparse="csr", reset=False)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\base.py", line 566, in _validate_data
+    X = check_array(X, **check_params)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\sklearn\utils\validation.py", line 792, in check_array
+    ) from e
+ValueError: Unable to convert array of bytes/strings into decimal numbers with dtype='numeric'
+[2023-11-17 11:06:59,543] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:06:59] "[35m[1mPOST /cliente HTTP/1.1[0m" 500 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:21:48,708] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:21:53,500] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:21:53] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-11-17 11:21:53,529] INFO _log() L224  127.0.0.1 - - [17/Nov/2023 11:21:53] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
