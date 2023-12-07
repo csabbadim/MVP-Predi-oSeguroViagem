@@ -13,6 +13,9 @@ Esse projeto possui um modelo que tem como objetivo prever se um cliente terá i
 - Viaja frequentemente: Considera se o cliente viajou mais de quatro vezes nos últimos dois anos. Se sim, então viaja frequentemente;
 - Já viajou para o exterior: Se o cliente já viajou para um país no exterior
 
+
+Como resposta, o modelo retorna 0 e 1 na coluna "Seguro de viagem é recomendado?". O 0 se refere ao valor não, e o 1 se refere ao valor sim. 
+
 ---
 ## Como executar
 
